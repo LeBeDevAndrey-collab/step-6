@@ -1,0 +1,71 @@
+.custom-input {
+  display: flex;
+  flex-direction: column;
+  width: 386px;
+  position: relative;
+  margin: 0 0 24px;
+}
+
+.custom-input__field {
+  padding: 10px 45px 10px 16px;
+  outline: none;
+  border: 1px solid #cdcfde;
+  border-radius: 8px;
+  width: 100%;
+  font-family: inherit;
+}
+
+.custom-input__label {
+  position: absolute;
+  top: 0;
+  left: 16px;
+  background: #ffffff;
+  padding: 5px;
+  transform: translateY(-50%);
+}
+
+.custom-input__icon {
+  position: absolute;
+  top: 10px;
+  right: 16px;
+}
+
+.custom-input__btn {
+  color: #ffffff;
+  border: none;
+  background: #476bf0;
+  width: 100%;
+  border-radius: 60px;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 14px;
+  margin: 0 0 24px;
+}
+
+.custom-input__btn:hover {
+  background: #3356d7;
+}
+
+.custom-input__btn:focus {
+  background: #2143c1;
+}
+
+.custom-input__btn:disabled {
+  background: #dbdfeb;
+  color: #777c9b;
+}
+
+.custtom-input__link {
+  display: block;
+  text-align: center;
+  color: #1e222e;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0 0 32px;
+}
+
+.custtom-input__link:hover {
+  color: #3356d7;
+}
+
+
