@@ -12,5 +12,9 @@
 @import "blocks/login-form.css";
 @import "blocks/custom-input.css";
 @import "blocks/footer.css";
-@import "blocks/forgot-data.css"
-
+@import "blocks/forgot-data.css";
+@import "blocks/input-btn.css";
+@import "blocks/custom-radio.css";
+@import "blocks/reg.css";
+@import "blocks/advantages.css";
+@import "blocks/custom-checkbox.css";

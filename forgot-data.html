@@ -45,35 +45,32 @@
               </svg>
             </a>
             <fieldset class="forgot-data__radio-field">
-              <div class="forgot-data__radio-buttons">
-                <div class="custom-radio">
-                  <!-- вставь в класс visually-hidden  -->
-                  <input
-                    class="custom-radio__field"
-                    id="new-password"
-                    type="radio"
-                    name="action"
-                    value="new"
-                  />
-                  <label class="custom-radio__label" for="new-password"
-                    >Установить новый пароль</label
-                  >
-                </div>
-                <div class="custom-radio">
-                  <input
-                    class="custom-radio__field"
-                    id="restore-password"
-                    type="radio"
-                    name="action"
-                    value="restore"
-                  />
-                  <label class="custom-radio__label" for="restore-password"
-                    >Восстановить логин</label
-                  >
-                </div>
+              <div class="custom-radio">
+                <input
+                  class="custom-radio__field visually-hidden"
+                  id="new-password"
+                  type="radio"
+                  name="action"
+                  value="new"
+                />
+                <label class="custom-radio__label" for="new-password"
+                  >Установить новый пароль</label
+                >
+              </div>
+              <div class="custom-radio">
+                <input
+                  class="custom-radio__field visually-hidden"
+                  id="restore-password"
+                  type="radio"
+                  name="action"
+                  value="restore"
+                />
+                <label class="custom-radio__label" for="restore-password"
+                  >Восстановить логин</label
+                >
               </div>
             </fieldset>
-            <button class="custom-input__btn">Продолжить</button>
+            <button class="input-btn" disabled>Продолжить</button>
           </div>
         </section>
       </div>

@@ -3,24 +3,12 @@
 }
 
 .login-form {
-  /* width: 450px; */
-  /* position: absolute;
-  top: 152px;
-  left: 495px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 32px;
   padding: 82px 0 0;
-  /* background: #ffffff;
-  box-shadow: 0px 2px 24px 0px #7f225505;
-  border: 1px solid #cdcfde;
-  border-radius: 20px;
-  padding: 32px 0 0; */
-}
-
-.login-form-reg {
 }
 
 .login-form__inner {
@@ -29,8 +17,6 @@
   box-shadow: 0px 2px 24px 0px #7f225505;
   border: 1px solid #cdcfde;
   border-radius: 20px;
-  /* padding: 32px 0 0; */
-  /* position: relative; */
 }
 
 .login-form__top {
@@ -57,7 +43,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 48px;
+  gap: 8px;
   position: relative;
   min-height: 80px;
   border-radius: 0 0 20px 20px;
@@ -69,9 +55,9 @@
   background: #ffffff;
   border-radius: 50%;
   position: absolute;
-  top: 24px;
-  left: 245px;
-  /* cursor: none; */
+  top: 0;
+  left: 0;
+  transform: translateY(-25%);
 }
 
 .login-form__bottom-text {
@@ -81,6 +67,8 @@
 }
 
 .login-form__bottom-link {
+  position: relative;
+  padding: 0 0 0 40px;
   color: #7e7d87;
   font-size: 14px;
   line-height: 16px;

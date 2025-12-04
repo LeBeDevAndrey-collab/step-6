@@ -5,12 +5,18 @@
 }
 
 body {
-  position: relative;
   margin: 0;
   padding: 0;
   font-family: "Noto Sans", "Arial", sans-serif;
-  color: #ADAFBA;
-  background: linear-gradient(90deg, #EDE7E7 0%, #EDF4FD 68.47%, #E5E9F5 100%);
+  color: #adafba;
+  background: linear-gradient(90deg, #ede7e7 0%, #edf4fd 68.47%, #e5e9f5 100%);
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+}
+
+.main {
+  flex-grow: 1;
 }
 
 img {

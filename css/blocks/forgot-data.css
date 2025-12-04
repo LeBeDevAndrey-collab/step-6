@@ -33,6 +33,11 @@
   color: #476bf0;
 }
 
+.forgot-data__button-back:disabled {
+  background: #dbdfeb;
+  color: #777c9b;
+}
+
 .forgot-data__title {
   color: #1e222e;
   font-weight: 400;
@@ -43,7 +48,7 @@
 }
 
 .forgot-data__radio-field {
-  /* display: flex; */
+  display: flex;
   flex-direction: column;
   gap: 20px;
   width: 386px;
@@ -52,19 +57,14 @@
   position: absolute;
   border-radius: 12px;
   border: 1px solid rgba(205, 207, 222, 0.5);
+  color: #cdcfde;
 }
 
-.custom-radio__label {
-  color: #1e222e;
-  width: 400px;
-  font-size: 16px;
-  line-height: 20px;
-}
 
-.forgot-data__wraper .custom-input__btn {
+.forgot-data__wraper .input-btn {
   position: absolute;
   bottom: 32px;
   left: 32px;
-  margin: 0;
+  margin: 32px 0 0;
   width: 386px;
 }

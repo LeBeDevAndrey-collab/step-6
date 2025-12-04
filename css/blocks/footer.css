@@ -1,8 +1,3 @@
-.footer {
-  position: sticky;
-  bottom: 0;
-}
-
 .footer__wraper {
   display: flex;
   justify-content: space-between;
@@ -20,12 +15,30 @@
 
 .footer__menu-inner {
   list-style: none;
-  color: #adafba;
-  font-size: 12px;
-  line-height: 14px;
 }
 
 .footer__menu-inner--logo {
   display: flex;
   gap: 8px;
+}
+
+.footer__menu-link {
+  color: #adafba;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.footer__menu-link:hover {
+  color: #3356d7;
+}
+
+.login-form-reg {
+  color: #476bf0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.login-form-reg:hover {
+  color: #3356d7;
 }

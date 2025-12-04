@@ -1,0 +1,86 @@
+.reg {
+  display: flex;
+  padding: 20px 205px;
+  gap: 80px;
+  position: relative;
+}
+
+.reg__left {
+  width: 450px;
+  background: #ffffff;
+  box-shadow: 0px 2px 24px 0px #7f225505;
+  border-radius: 20px;
+  padding: 32px;
+}
+
+.reg__form-wraper {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  padding: 0;
+}
+
+.reg_left-title {
+  text-align: center;
+  color: #1e222e;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.reg__form-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.custom-input--smoll {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.custom-input--smoll .custom-input {
+  width: 188px;
+  
+}
+
+.reg__captcha-input {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.reg__captcha-input .custom-input {
+  width: 188px;
+}
+
+.reg__captcha-title {
+  width: 386px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.reg__captcha-picture {
+  width: 188px;
+  height: 44px;
+  padding: 0 32px;
+  display: flex;
+  border: 1px solid #cdcfde;
+  border-radius: 8px;
+  color: #8f939f;
+}
+
+.reg__captcha-img {
+  height: 100%;
+}
+
+.reg__login-link {
+  position: absolute;
+  left: 321px;
+  bottom: -40px;
+  color: #476bf0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
