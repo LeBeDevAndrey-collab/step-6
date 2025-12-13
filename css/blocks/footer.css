@@ -1,35 +1,65 @@
+.footer {
+  margin: auto 0;
+  padding: 16px 0;
+}
+
 .footer__wraper {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
   /* gap: 150px; */
-  padding-top: 108px;
 }
 
 .footer__menu-wraper {
   padding: 0;
   display: flex;
   gap: 24px;
+  align-items: flex-end;
 }
 
 .footer__menu-inner {
   list-style: none;
 }
 
-.footer__menu-inner--logo {
-  display: flex;
-  gap: 8px;
-}
+
 
 .footer__menu-link {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  color: #baadad;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.footer__menu-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.footer__menu-link--alt {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.footer__menu-copiright {
   color: #adafba;
+  font-weight: 400;
   font-size: 12px;
   line-height: 14px;
 }
 
 .footer__menu-link:hover {
   color: #3356d7;
+}
+
+.footer__menu-link:hover .footer__menu-icon {
+   fill: #3356d7;
+   stroke: #3356d7;
 }
 
 .login-form-reg {
@@ -41,4 +71,23 @@
 
 .login-form-reg:hover {
   color: #3356d7;
+}
+
+.footer__theme {
+  /* width: 133px;
+    display: flex;
+    gap: 8px; */
+  border: none;
+  background-color: transparent;
+}
+
+.footer__theme-text {
+  color: #767a85;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.footer__theme-logo {
+  margin: 0 0 0 8px;
 }
