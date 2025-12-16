@@ -15,9 +15,8 @@ body {
   min-height: 100dvh;
 }
 
-.main {
+main {
   min-height: 100vh;
-  margin: 0 0 104px;
   flex-grow: 1;
 }
 

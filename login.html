@@ -41,15 +41,16 @@
       </div>
     </header>
     <main>
-      <div class="container">
-        <section class="login-form">
+      <section class="login-form">
+        <div class="container">
           <div class="login-form__inner">
             <div class="login-form__top">
               <h1 class="login-form__title">Вход в ГПБ Бизнес-онлайн</h1>
               <form class="login-form__wraper" action="#" method="post">
-                <fieldset class="login-form__fieldset">
+                
                   <div class="login-form__input-field-wraper">
-                    <div class="custom-input">
+                    <!-- Вставь в class - custom-input--error -->
+                    <div class="custom-input ">
                       <input
                         class="custom-input__field"
                         type="text"
@@ -83,12 +84,11 @@
                       </svg>
                     </div>
                   </div>
-
-                  <button class="input-btn input-btn--login-form">Войти</button>
+                  <button class="login-form__input-btn" type="button">Войти</button>
                   <a class="login-form__link" href="#"
                     >Забыли логин или пароль?</a
                   >
-                </fieldset>
+                
               </form>
             </div>
             <div class="login-form__bottom">
@@ -99,50 +99,47 @@
                     <use xlink:href="images/sprite.svg#icon-logo-form"></use>
                   </svg>
                 </span>
-
                 <span>ЭТП ГПБ</span>
               </a>
             </div>
           </div>
-          <a class="login-form-reg" href="#">Зарегистрироваться</a>
-        </section>
-      </div>
+          <a class="login-form__reg" href="#">Зарегистрироваться</a>
+        </div>
+      </section>
     </main>
     <footer class="footer">
       <div class="container">
         <div class="footer__wraper">
-          <div class="footer__menu">
-            <ul class="footer__menu-wraper">
-              <li class="footer__menu-inner">
-                <a class="footer__menu-link" href="tel:88001001189">
-                  <svg class="footer__menu-icon" width="16" height="16">
-                    <use xlink:href="images/sprite.svg#icon-phone"></use>
-                  </svg>
-                  <span class="footer__menu-text">8 800 100 11 89</span>
-                </a>
-              </li>
-              <li class="footer__menu-inner">
-                <a href="#" class="footer__menu-link">
-                  <svg class="footer__menu-icon" width="16" height="14">
-                    <use xlink:href="images/sprite.svg#icon-telegram"></use>
-                  </svg>
-                  <span class="footer__menu-text">Написать в Telegram</span>
-                </a>
-              </li>
-              <li class="footer__menu-inner">
-                <span class="footer__menu-copiright"
-                  >© 2024 Банк ГПБ (АО) Генеральная лицензия Банка России
-                  №354</span
-                >
-              </li>
-              <li class="footer__menu-inner">
-                <a href="#" class="footer__menu-link footer__menu-link--alt"
-                  >Политика обработки персональных данных</a
-                >
-              </li>
-            </ul>
-          </div>
-          <button class="footer__theme">
+          <ul class="footer__menu">
+            <li class="footer__menu-inner">
+              <a class="footer__menu-link" href="tel:88001001189">
+                <svg class="footer__menu-icon" width="16" height="16">
+                  <use xlink:href="images/sprite.svg#icon-phone"></use>
+                </svg>
+                <span class="footer__menu-text">8 800 100 11 89</span>
+              </a>
+            </li>
+            <li class="footer__menu-inner">
+              <a href="#" class="footer__menu-link">
+                <svg class="footer__menu-icon" width="16" height="14">
+                  <use xlink:href="images/sprite.svg#icon-telegram"></use>
+                </svg>
+                <span class="footer__menu-text">Написать в Telegram</span>
+              </a>
+            </li>
+            <li class="footer__menu-inner">
+              <span class="footer__menu-copiright"
+                >© 2024 Банк ГПБ (АО) Генеральная лицензия Банка России
+                №354</span
+              >
+            </li>
+            <li class="footer__menu-inner">
+              <a href="#" class="footer__menu-link footer__menu-link--alt"
+                >Политика обработки персональных данных</a
+              >
+            </li>
+          </ul>
+          <button class="footer__theme" type="button">
             <span class="footer__theme-text">Светлая тема</span>
             <svg class="footer__theme-logo" width="16" height="16">
               <use xlink:href="images/sprite.svg#icon-theme"></use>

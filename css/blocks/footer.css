@@ -11,7 +11,8 @@
   /* gap: 150px; */
 }
 
-.footer__menu-wraper {
+.footer__menu {
+  margin: 0;
   padding: 0;
   display: flex;
   gap: 24px;
@@ -21,8 +22,6 @@
 .footer__menu-inner {
   list-style: none;
 }
-
-
 
 .footer__menu-link {
   display: flex;
@@ -56,10 +55,9 @@
 .footer__menu-link:hover {
   color: #3356d7;
 }
-
+/* Цвет иконки не меняется */
 .footer__menu-link:hover .footer__menu-icon {
-   fill: #3356d7;
-   stroke: #3356d7;
+  fill: #3356d7;
 }
 
 .login-form-reg {
@@ -74,9 +72,10 @@
 }
 
 .footer__theme {
-  /* width: 133px;
-    display: flex;
-    gap: 8px; */
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding: 0;
   border: none;
   background-color: transparent;
 }
@@ -88,6 +87,4 @@
   line-height: 20px;
 }
 
-.footer__theme-logo {
-  margin: 0 0 0 8px;
-}
+

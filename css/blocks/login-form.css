@@ -8,6 +8,7 @@
 }
 
 .login-form__inner {
+  margin: 0 0 32px;
   width: 450px;
   background: #ffffff;
   box-shadow: 0px 2px 24px 0px #7f225505;
@@ -32,12 +33,6 @@
   text-align: center;
 }
 
-.login-form__fieldset {
-  border: none;
-  margin: 0;
-  padding: 0;
-}
-
 .login-form__input-field-wraper {
   display: flex;
   flex-direction: column;
@@ -47,6 +42,7 @@
 }
 
 .login-form__bottom {
+  padding: 24px;
   background: linear-gradient(90deg, #f5f6fa 0%, #f7f1f7 51.5%, #f5f7fd 100%);
   display: flex;
   justify-content: center;
@@ -87,7 +83,8 @@
   color: #3356d7;
 }
 
-.login-form-reg {
+.login-form__reg {
+  display: block;
   color: #476BF0;
   font-weight: 400;
   font-size: 16px;
@@ -95,7 +92,7 @@
   text-align: center;
 }
 
-.login-form-reg:hover {
+.login-form__reg:hover {
   color: #3356d7;
 }
 
@@ -114,4 +111,31 @@
 
 .login-form__link:focus-visible {
   outline: none;
+}
+
+.login-form__input-btn {
+  color: #ffffff;
+  border: none;
+  background: #476bf0;
+  width: 100%;
+  border-radius: 60px;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 14px;
+  margin: 0 0 24px;
+  cursor: pointer;
+}
+
+.login-form__input-btn:hover {
+  background: #3356d7;
+}
+
+.login-form__input-btn:focus-visible {
+  background: #2143c1;
+  outline: none;
+}
+
+.login-form__input-btn:disabled {
+  background: #dbdfeb;
+  color: #777c9b;
 }
