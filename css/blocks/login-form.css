@@ -12,7 +12,6 @@
   width: 450px;
   background: #ffffff;
   box-shadow: 0px 2px 24px 0px #7f225505;
-  border: 1px solid #cdcfde;
   border-radius: 20px;
 }
 
@@ -85,7 +84,7 @@
 
 .login-form__reg {
   display: block;
-  color: #476BF0;
+  color: #476bf0;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;

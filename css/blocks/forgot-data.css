@@ -1,6 +1,7 @@
 .forgot-data__wraper {
   position: relative;
-  margin: 162px 467px 184px;
+
+  margin: 156px 467px 184px;
   padding: 32px;
   width: 450px;
   height: 315px;
@@ -52,19 +53,25 @@
   flex-direction: column;
   gap: 20px;
   width: 386px;
-  padding: 32px 28px;
+  padding: 28px;
   margin: 0 0 28px;
-  position: absolute;
+  /* position: absolute; */
   border-radius: 12px;
   border: 1px solid rgba(205, 207, 222, 0.5);
   color: #cdcfde;
 }
 
-
-.forgot-data__wraper .input-btn {
-  position: absolute;
-  bottom: 32px;
-  left: 32px;
+.forgot-data__input-btn {
   margin: 32px 0 0;
   width: 386px;
+  color: #777c9b;
+  border: none;
+  background: #dbdfeb;
+  width: 100%;
+  border-radius: 60px;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 14px;
+  margin: 0 0 24px;
+  cursor: pointer;
 }

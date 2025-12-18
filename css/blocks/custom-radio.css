@@ -7,8 +7,9 @@
 }
 
 .custom-radio__label {
+  position: relative;
   color: #1e222e;
-  padding: 0 0 0 15px;
+  padding: 0 0 0 30px;
   font-size: 16px;
   line-height: 20px;
   cursor: pointer;
@@ -21,7 +22,7 @@
   border: 1px solid #cdcfde;
   border-radius: 50%;
   position: absolute;
-  left: 15px;
+  left: 0px;
 }
 
 .custom-radio__label::after {
@@ -33,7 +34,7 @@
   border: 6px solid #476bf0;
   border-radius: 50%;
   position: absolute;
-  left: 15px;
+  left: 0px;
 }
 
 .custom-radio__field:checked + .custom-radio__label::after {

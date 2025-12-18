@@ -41,81 +41,82 @@
       </div>
     </header>
     <main>
-      <div class="container">
-        <section class="forgot-data">
-          <div class="forgot-data__wraper">
-            <h1 class="forgot-data__title">Не можете войти?</h1>
-            <a class="forgot-data__button-back">
-              <svg class="forgot-data__button-icon" width="19" height="14">
-                <use xlink:href="images/sprite.svg#icon-arrow"></use>
-              </svg>
-            </a>
-            <fieldset class="forgot-data__radio-field">
-              <div class="custom-radio">
-                <input
-                  class="custom-radio__field visually-hidden"
-                  id="new-password"
-                  type="radio"
-                  name="action"
-                  value="new"
-                />
-                <label class="custom-radio__label" for="new-password"
-                  >Установить новый пароль</label
-                >
+      <section class="forgot-data">
+        <div class="container">
+            <div class="forgot-data__wraper">
+              <h1 class="forgot-data__title">Не можете войти?</h1>
+              <a class="forgot-data__button-back">
+                <svg class="forgot-data__button-icon" width="19" height="14">
+                  <use xlink:href="images/sprite.svg#icon-arrow"></use>
+                </svg>
+              </a>
+              <div class="forgot-data__radio-field">
+                <div class="custom-radio">
+                  <input
+                    class="custom-radio__field visually-hidden"
+                    id="new-password"
+                    type="radio"
+                    name="action"
+                    value="new"
+                  />
+                  <label class="custom-radio__label" for="new-password"
+                    >Установить новый пароль</label
+                  >
+                </div>
+                <div class="custom-radio">
+                  <input
+                    class="custom-radio__field visually-hidden"
+                    id="restore-password"
+                    type="radio"
+                    name="action"
+                    value="restore"
+                  />
+                  <label class="custom-radio__label" for="restore-password"
+                    >Восстановить логин</label
+                  >
+                </div>
               </div>
-              <div class="custom-radio">
-                <input
-                  class="custom-radio__field visually-hidden"
-                  id="restore-password"
-                  type="radio"
-                  name="action"
-                  value="restore"
-                />
-                <label class="custom-radio__label" for="restore-password"
-                  >Восстановить логин</label
-                >
-              </div>
-            </fieldset>
-            <button class="input-btn" disabled>Продолжить</button>
+              <button class="forgot-data__input-btn" type="submit" disabled>
+                Продолжить
+              </button>
+            </div>
           </div>
-        </section>
-      </div>
+        </div>
+      </section>
     </main>
     <footer class="footer">
       <div class="container">
         <div class="footer__wraper">
-          <div class="footer__menu">
-            <ul class="footer__menu-wraper">
-              <li class="footer__menu-inner">
-                <a class="footer__menu-link" href="tel:88001001189">
-                  <svg class="footer__menu-icon" width="16" height="16">
-                    <use xlink:href="images/sprite.svg#icon-phone"></use>
-                  </svg>
-                  <span class="footer__menu-text">8 800 100 11 89</span>
-                </a>
-              </li>
-              <li class="footer__menu-inner">
-                <a href="#" class="footer__menu-link">
-                  <svg class="footer__menu-icon" width="16" height="14">
-                    <use xlink:href="images/sprite.svg#icon-telegram"></use>
-                  </svg>
-                  <span class="footer__menu-text">Написать в Telegram</span>
-                </a>
-              </li>
-              <li class="footer__menu-inner">
-                <span class="footer__menu-copiright"
-                  >© 2024 Банк ГПБ (АО) Генеральная лицензия Банка России
-                  №354</span
-                >
-              </li>
-              <li class="footer__menu-inner">
-                <a href="#" class="footer__menu-link footer__menu-link--alt"
-                  >Политика обработки персональных данных</a
-                >
-              </li>
-            </ul>
-          </div>
-          <button class="footer__theme">
+          <ul class="footer__menu">
+            <li class="footer__menu-inner">
+              <a class="footer__menu-link" href="tel:88001001189">
+                <svg class="footer__menu-icon" width="16" height="16">
+                  <use xlink:href="images/sprite.svg#icon-phone"></use>
+                </svg>
+                <span class="footer__menu-text">8 800 100 11 89</span>
+              </a>
+            </li>
+            <li class="footer__menu-inner">
+              <a href="#" class="footer__menu-link">
+                <svg class="footer__menu-icon" width="16" height="14">
+                  <use xlink:href="images/sprite.svg#icon-telegram"></use>
+                </svg>
+                <span class="footer__menu-text">Написать в Telegram</span>
+              </a>
+            </li>
+            <li class="footer__menu-inner">
+              <span class="footer__menu-copiright"
+                >© 2024 Банк ГПБ (АО) Генеральная лицензия Банка России
+                №354</span
+              >
+            </li>
+            <li class="footer__menu-inner">
+              <a href="#" class="footer__menu-link footer__menu-link--alt"
+                >Политика обработки персональных данных</a
+              >
+            </li>
+          </ul>
+          <button class="footer__theme" type="button">
             <span class="footer__theme-text">Светлая тема</span>
             <svg class="footer__theme-logo" width="16" height="16">
               <use xlink:href="images/sprite.svg#icon-theme"></use>
