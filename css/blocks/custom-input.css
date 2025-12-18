@@ -43,22 +43,21 @@
 }
 
 .custom-input--error .custom-input__icon {
-  display: none;
+  color: #f6514b;
 }
 
 .custom-input--error .custom-input__label {
   background: transparent;
 }
 
-.custom-input--error .custom-input__label::after {
+.custom-input__label::after {
   content: "";
   width: 100%;
   height: 4px;
-  background: #000000;
+  background: #ffffff;
   position: absolute;
   left: 0;
- 
-  transform: translateY(120%);
+  top: 11px;  
   z-index: -1;
 }
 
