@@ -1,17 +1,19 @@
 .advantages {
-  padding: 240px 0 0;
+  padding: 0;
 }
 
-.advantages-title {
+
+.advantages__title {
   color: #1E222E;
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
+  margin: 240px 0 32px;
 }
 
-.advantages-list {
+.advantages__list {
   padding: 0;
-  margin: 0;
+  margin: 0 0 32px;
   list-style: none;
   counter-reset: counter;
   display: grid;
@@ -19,18 +21,20 @@
   gap: 32px;
 }
 
-.advantages-item {
+.advantages__item {
   color: #1E222E;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
   counter-increment: counter;
   position: relative;
-  min-height: 60px;
+  min-height: 40px;
   padding: 0 0 0 60px;
+  display: flex;
+  align-items: center;
 }
 
-.advantages-item::before {
+.advantages__item::before {
   position: absolute;
   color: #4F6AE8;
   font-weight: 400;

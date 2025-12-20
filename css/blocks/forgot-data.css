@@ -1,13 +1,13 @@
-.forgot-data__container {
+.forgot-data {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 156px 469px 184px;
 }
 
 .forgot-data__wraper {
   display: flex;
   flex-direction: column;
-  /* justify-content: center;
-  align-items: center; */
-  /* margin: 156px 467px 184px; */
   position: relative;
   padding: 32px;
   width: 450px;
@@ -86,10 +86,17 @@
   cursor: pointer;
 }
 
+.forgot-data__input-btn:disabled {
+  background-color: #DBDFEB;
+  color: #777C9B;
+}
+
 .forgot-data__input-btn:hover {
   background-color: #3356D7;
+  color: #FFFFFF;
 }
 
 .forgot-data__input-btn:focus-visible {
   background-color: #2143C1;
+  color:   #FFFFFF;
 }

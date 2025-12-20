@@ -1,27 +1,33 @@
-.reg {
-  display: flex;
+.registration__inner {
   padding: 14px 175px 14px 178px;
-  gap: 80px;
-  position: relative;
 }
 
-.reg__left {
-  width: 450px;
+.registration__wraper {
+  display: grid;
+  width: 1030px;
+  grid-template-columns: 450px 500px;
+  gap: 32px 80px;
+  /* align-items: center; */
+  /* position: relative; */
+}
+
+.registration__left {
+  /* width: 450px; */
   background: #ffffff;
   box-shadow: 0px 2px 24px 0px #7f225505;
   border-radius: 20px;
   padding: 32px;
 }
 
-.reg__form-wraper {
+.registration__form-wraper {
   display: flex;
   flex-direction: column;
   border: none;
   padding: 0;
-  margin: 0;
+  margin: 0 0 2px 0;
 }
 
-.reg_left-title {
+.registration__left-title {
   text-align: center;
   color: #1e222e;
   font-weight: 400;
@@ -30,57 +36,60 @@
   margin: 0 0 28px;
 }
 
-.reg__form-inner {
+.registration__form-inner {
   display: flex;
   flex-direction: column;
   gap: 20px;
   margin: 0 0 20px;
 }
 
-.custom-input--smoll {
+
+
+.registration__smoll-field {
   display: flex;
   gap: 10px;
   justify-content: space-between;
 }
 
-.custom-input--smoll .custom-input {
+.registration__smoll-field .custom-input {
   width: 188px;
-  
 }
 
-.reg__captcha {
+.registration__captcha {
   margin: 0 0 24px;
 }
 
-.reg__captcha-input {
+.registration__captcha-input {
   display: flex;
   gap: 10px;
   justify-content: center;
 }
 
-.reg__captcha-input .custom-input {
+.registration__captcha-input .custom-input {
   width: 188px;
 }
 
-.reg__captcha-title {
+.registration__captcha-title {
   width: 386px;
   display: flex;
   justify-content: space-between;
   margin: 0 0 8px;
+  align-items: flex-end;
 }
 
-.reg__captcha-reboot {
+.registration__captcha-reboot {
   display: flex;
   width: 16px;
   height: 16px;
   border: none;
-  color: #8F939F;
+  color: #8f939f;
   justify-content: center;
   align-items: center;
   padding: 2px;
+  background-color: transparent;
 }
 
-.reg__captcha-picture {
+.registration__captcha-picture {
   width: 188px;
   height: 44px;
   padding: 0 32px;
@@ -90,21 +99,19 @@
   color: #8f939f;
 }
 
-.reg__captcha-img {
+.registration__captcha-img {
   height: 100%;
 }
 
-.reg__login-link {
-  position: absolute;
-  left: 321px;
-  bottom: -40px;
+.registration__login-link {
+  text-align: center;
   color: #476bf0;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
 }
 
-.reg__input-btn {
+.registration__input-btn {
   color: #ffffff;
   border: none;
   background: #476bf0;
