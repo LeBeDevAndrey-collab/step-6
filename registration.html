@@ -43,193 +43,189 @@
     <main>
       <section class="registration">
         <div class="container">
-          <div class="registration__inner">
-            <h1 class="title visually-hidden">Форма регистрации</h1>
-            <div class="registration__wraper">
-              <div class="registration__left">
-                <h2 class="registration__left-title">Регистрация</h2>
-                <form class="registration__form" action="#" method="post">
-                  <fieldset class="registration__form-wraper">
-                    <div class="registration__form-inner">
-                      <div class="custom-input">
-                        <input
-                          class="custom-input__field"
-                          type="text"
-                          name="surname"
-                          id="surname"
-                          required
-                        />
-                        <label
-                          class="custom-input__label"
-                          for="surname"
-                          >Фамилия</label
-                        >
-                        <span class="custom-input__error"
-                          >Поле должно быть заполнено</span
-                        >
-                      </div>
-                      <div class="registration__smoll-field">
-                        <div class="custom-input">
-                          <input
-                            class="custom-input__field"
-                            type="text"
-                            name="name"
-                            id="name"
-                            required
-                          />
-                          <label class="custom-input__label" for="name"
-                            >Имя</label
-                          >
-                        </div>
-                        <div class="custom-input">
-                          <input
-                            class="custom-input__field"
-                            type="text"
-                            name="patronymic"
-                            id="patronymic"
-                            required
-                          />
-                          <label class="custom-input__label" for="patronymic"
-                            >Отчество</label
-                          >
-                        </div>
-                      </div>
-                      <div class="custom-input">
-                        <input
-                          class="custom-input__field"
-                          type="text"
-                          name="login"
-                          id="login"
-                          required
-                        />
-                        <label class="custom-input__label" for="login"
-                          >Логин</label
-                        >
-                      </div>
-                      <div class="custom-input">
-                        <input
-                          class="custom-input__field"
-                          type="password"
-                          name="password"
-                          id="password"
-                          required
-                        />
-                        <label class="custom-input__label" for="password"
-                          >Пароль</label
-                        >
-                      </div>
-                      <div class="custom-input">
-                        <input
-                          class="custom-input__field"
-                          placeholder="+7 (ХХХ) ХХХ-ХХ-ХХ"
-                          type="tel"
-                          name="tel"
-                          id="tel"
-                          required
-                        />
-                        <label class="custom-input__label" for="tel"
-                          >Телефон</label
-                        >
-                      </div>
-                      <div class="custom-input">
-                        <input
-                          class="custom-input__field"
-                          type="email"
-                          name="email"
-                          id="email"
-                          required
-                        />
-                        <label class="custom-input__label" for="email"
-                          >Email</label
-                        >
-                      </div>
-                    </div>
-                  </fieldset>
-                  <div class="registration__captcha">
-                    <div class="registration__captcha-title">
-                      <span class="registration__captcha-text">Код с картинки</span>
-                      <button class="registration__captcha-reboot" type="button">
-                        <svg
-                          class="registration__captcha-icon-reboot"
-                          width="12"
-                          height="14"
-                        >
-                          <use xlink:href="images/sprite.svg#icon-reboot"></use>
-                        </svg>
-                      </button>
-                    </div>
-                    <div class="registration__captcha-input">
-                      <div class="custom-input">
-                        <input
-                          class="custom-input__field"
-                          type="text"
-                          name="captcha-input"
-                          id="captcha-input"
-                          required
-                        />
-                      </div>
-                      <div class="registration__captcha-picture">
-                        <img
-                          class="registration__captcha-img"
-                          src="images/captcha.jpg"
-                          width="124"
-                          height="44"
-                          alt="Капча"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <button class="registration__input-btn" type="submit">Продолжить</button>
-                  <div class="custom-checkbox">
-                    <input
-                      class="custom-checkbox__field visually-hidden"
-                      type="checkbox"
-                      id="personal-data"
-                      name="personal-data"
-                    />
-                    <label class="custom-checkbox__label" for="personal-data">
-                      <span class="custom-checkbox__text">
-                        Согласен на обработку и передачу
-                      </span>
-                      <span class="custom-checkbox__text-alt"
-                        >персональных данных</span
+          <div class="registration__wraper">
+            <div class="registration__left">
+              <h1 class="registration__left-title">Регистрация</h1>
+              <form class="registration__form" action="#" method="post">
+                <fieldset class="registration__form-wraper">
+                  <div class="registration__form-inner">
+                    <div class="custom-input">
+                      <input
+                        class="custom-input__field"
+                        type="text"
+                        name="surname"
+                        id="surname"
+                        required
+                      />
+                      <label class="custom-input__label" for="surname"
+                        >Фамилия</label
                       >
-                      <svg class="icon-checkbox" width="12" height="9">
-                        <use
-                          xlink:href="images/sprite.svg#icon-check"
-                          aria-hidden="true"
-                        ></use>
-                      </svg>
-                    </label>
+                      <span class="custom-input__error"
+                        >Поле должно быть заполнено</span
+                      >
+                    </div>
+                    <div class="registration__smoll-field">
+                      <div class="custom-input">
+                        <input
+                          class="custom-input__field"
+                          type="text"
+                          name="name"
+                          id="name"
+                          required
+                        />
+                        <label class="custom-input__label" for="name"
+                          >Имя</label
+                        >
+                      </div>
+                      <div class="custom-input">
+                        <input
+                          class="custom-input__field"
+                          type="text"
+                          name="patronymic"
+                          id="patronymic"
+                          required
+                        />
+                        <label class="custom-input__label" for="patronymic"
+                          >Отчество</label
+                        >
+                      </div>
+                    </div>
+                    <div class="custom-input">
+                      <input
+                        class="custom-input__field"
+                        type="text"
+                        name="login"
+                        id="login"
+                        required
+                      />
+                      <label class="custom-input__label" for="login"
+                        >Логин</label
+                      >
+                    </div>
+                    <div class="custom-input">
+                      <input
+                        class="custom-input__field"
+                        type="password"
+                        name="password"
+                        id="password"
+                        required
+                      />
+                      <label class="custom-input__label" for="password"
+                        >Пароль</label
+                      >
+                    </div>
+                    <div class="custom-input">
+                      <input
+                        class="custom-input__field"
+                        placeholder="+7 (ХХХ) ХХХ-ХХ-ХХ"
+                        type="tel"
+                        name="tel"
+                        id="tel"
+                        required
+                      />
+                      <label class="custom-input__label" for="tel"
+                        >Телефон</label
+                      >
+                    </div>
+                    <div class="custom-input">
+                      <input
+                        class="custom-input__field"
+                        type="email"
+                        name="email"
+                        id="email"
+                        required
+                      />
+                      <label class="custom-input__label" for="email"
+                        >Email</label
+                      >
+                    </div>
                   </div>
-                </form>
-              </div>
-                <div class="advantages">
-                  <h2 class="advantages__title">
-                    ГПБ Бизнес ID — один для всех
-                  </h2>
-                  <ol class="advantages__list">
-                    <li class="advantages__item">
-                      Единая учетная запись для работы с&nbsp;продуктами
-                      и&nbsp;сервисами, предоставляемыми группой Банк ГПБ (АО)
-                      и&nbsp;партнёрами
-                    </li>
-                    <li class="advantages__item">
-                      Возможность одновременной работы с&nbsp;несколькими
-                      продуктами без необходимости переходить из&nbsp;одной
-                      системы в&nbsp;другую
-                    </li>
-                    <li class="advantages__item">
-                      Гарантия защиты Ваших персональных данных
-                    </li>
-                  </ol>
+                </fieldset>
+                <div class="registration__captcha">
+                  <div class="registration__captcha-title">
+                    <span class="registration__captcha-text"
+                      >Код с картинки</span
+                    >
+                    <button class="registration__captcha-reboot" type="button" aria-label="true">
+                      <svg
+                        class="registration__captcha-icon-reboot"
+                        width="12"
+                        height="14"
+                      >
+                        <use xlink:href="images/sprite.svg#icon-reboot"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="registration__captcha-input">
+                    <div class="custom-input">
+                      <input
+                        class="custom-input__field"
+                        type="text"
+                        name="captcha-input"
+                        id="captcha-input"
+                        required
+                      />
+                    </div>
+                    <div class="registration__captcha-picture">
+                      <img
+                        class="registration__captcha-img"
+                        src="images/captcha.jpg"
+                        width="124"
+                        height="44"
+                        alt="Капча"
+                      />
+                    </div>
+                  </div>
                 </div>
-              <a class="registration__login-link" href="#"
-                  >Войти в ГПБ Бизнес-онлайн</a>
+                <button class="registration__input-btn" type="submit">
+                  Продолжить
+                </button>
+                <div class="custom-checkbox">
+                  <input
+                    class="custom-checkbox__field visually-hidden"
+                    type="checkbox"
+                    id="personal-data"
+                    name="personal-data"
+                  />
+                  <label class="custom-checkbox__label" for="personal-data">
+                    <span class="custom-checkbox__text">
+                      Согласен на обработку и передачу
+                    </span>
+                    <span class="custom-checkbox__text-alt"
+                      >персональных данных</span
+                    >
+                    <svg class="icon-checkbox" width="12" height="9">
+                      <use
+                        xlink:href="images/sprite.svg#icon-check"
+                        aria-hidden="true"
+                      ></use>
+                    </svg>
+                  </label>
+                </div>
+              </form>
             </div>
-            
+            <div class="advantages">
+              <h2 class="advantages__title">ГПБ Бизнес ID — один для всех</h2>
+              <ol class="advantages__list">
+                <li class="advantages__item">
+                  Единая учетная запись для работы с&nbsp;продуктами
+                  и&nbsp;сервисами, предоставляемыми группой Банк ГПБ (АО)
+                  и&nbsp;партнёрами
+                </li>
+                <li class="advantages__item">
+                  Возможность одновременной работы с&nbsp;несколькими продуктами
+                  без необходимости переходить из&nbsp;одной системы
+                  в&nbsp;другую
+                </li>
+                <li class="advantages__item">
+                  Гарантия защиты Ваших персональных данных
+                </li>
+              </ol>
+            </div>
+            <a class="registration__login-link" href="#"
+              >Войти в ГПБ Бизнес-онлайн</a
+            >
           </div>
-          
         </div>
       </section>
     </main>

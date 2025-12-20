@@ -1,6 +1,10 @@
-.registration__inner {
-  padding: 14px 175px 14px 178px;
+.registration {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 0 38px;
 }
+
 
 .registration__wraper {
   display: grid;
